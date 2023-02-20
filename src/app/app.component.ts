@@ -8,4 +8,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'Tour of Heroes';
   name = 'perrine';
+  isThisIngredientVital: boolean = true;
+  isGuestListDisplayed: boolean = true;
+  songList: string[] = ['Alejandro', 'Ne me quitte pas', 'Le temps est bon'];
 }

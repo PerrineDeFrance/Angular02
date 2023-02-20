@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { User } from '../model/user';
+import { User } from '../../model/user';
 @Component({
   selector: 'app-user-profile',
   templateUrl: './user-profile.component.html',
@@ -11,8 +11,8 @@ export class UserProfileComponent implements OnInit {
   constructor() {
     this.user = new User(
       'https://www.babelio.com/users/AVT2_Huon_6976.jpeg',
-      'Perrine',
-      '41',
+      'Ginette',
+      '34',
       'Perrine Huon'
     );
   }
